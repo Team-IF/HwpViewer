@@ -1,11 +1,11 @@
 import React from "react";
 
-function App() {
+const App: React.FC = ({ children }) => {
   return (
     <div className="App">
-      <header className="App-header"></header>
+      <div>{children}</div>
     </div>
   );
-}
+};
 
 export default App;
