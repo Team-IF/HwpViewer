@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Home: React.FC = () => {
-  return <div>asdf</div>
+  return <div className='text-center'>asdf</div>
 }
 
 export default Home
