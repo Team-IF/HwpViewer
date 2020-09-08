@@ -5,7 +5,7 @@ import { lightTheme, darkTheme } from '../styles/theme'
 import { useDarkMode } from './hooks/useDarkMode'
 
 const App: React.FC = ({ children }) => {
-  const [theme, toggleTheme] = useDarkMode()
+  const [theme, _ignore] = useDarkMode()
   const themeMode = theme === 'light' ? lightTheme : darkTheme
 
   return (
